@@ -1,0 +1,30 @@
+{
+  "name": "deprod-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/cli.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "inquirer": "^12.6.1",
+    "openai": "^4.98.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^22.15.17",
+    "ethers": "^6.14.0",
+    "hardhat": "^2.24.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

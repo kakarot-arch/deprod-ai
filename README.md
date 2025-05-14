@@ -89,10 +89,15 @@ deprod-agent/
 npm install
 ```
 
-### 2. Create `.env` file
+### 2. Create `.env` file from .env.example
 ```env
+# Gaia AI configuration
+GAIA_MODEL_BASE_URL=https://qwen72b.gaia.domains/v1
 Gaia_API_KEY=your_Gaia_key_here
+
 ETHERSCAN_API_KEY=your_etherscan_key_here
+
+PRIVATE_KEY=your_private_key_here
 ```
 
 ### 3. Compile Contracts
@@ -106,7 +111,7 @@ npx hardhat compile
 
 ### Start CLI
 ```bash
-ts-node cli.ts
+npm start
 ```
 
 ### CLI Options
